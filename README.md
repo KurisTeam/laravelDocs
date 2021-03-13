@@ -1,1 +1,2 @@
-# how to run laravel github project on localhost
+# laravel 
+## Github project run on localhost
