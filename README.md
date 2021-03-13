@@ -1,4 +1,7 @@
-# laravel 
+# Migration
+## Specific Table Migration
+- composer `php artisan migrate:refresh --path=/database/migrations/fileName.php`
+# Github project 
 ## Github project run on localhost
 - composer `composer update`
 - ENV `copy .env.example .env`
