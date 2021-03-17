@@ -17,12 +17,16 @@
 - To allow the consumers of our `Laravel REST API` to access it from a different origin, we have to set up CORS. To do that, we’ll create a piece of middleware called `Cors`.
 - directory and run `php artisan make:middleware Cors`
 - Then, in `app/Http/Middleware/Cors.php,` add the following code:
-- ```public function handle($request, Closure $next){
-        return $next($request)
-            ->header('Access-Control-Allow-Origin', '*')
-            ->header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS')
-            ->header('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type, X-Token-Auth, Authorization');
-    }```
+
+```
+public function handle($request, Closure $next){
+    return $next($request)
+        ->header('Access-Control-Allow-Origin', '*')
+        ->header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS')
+        ->header('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type, X-Token-Auth, Authorization');
+}
+```
+
 - Laravel Passport Tutorial, Step 3: Create User Authentication Controllers for the API
 - Now we want to create the authentication controller with login and register functions.
 
