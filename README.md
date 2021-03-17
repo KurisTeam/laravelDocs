@@ -6,7 +6,7 @@
 - ENV `copy .env.example .env`
 - Key generate `php artisan key:generate`
 - ## VSCode project 
-- `{
+- VSCode settings `{
     "editor.formatOnSave": true,
     "php.validate.executablePath": "C:/xampp/php/php.exe",
     "php.executablePath": "C:/xampp/php/php.exe",
