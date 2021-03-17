@@ -124,17 +124,13 @@ Route::middleware('auth:api')->group(function () {
 });
 Before moving on, we’ll add the logout route to the auth:api middleware because Laravel uses a token to log the user out—a token which cannot be accessed from outside the auth:api middleware. Our public routes look like this:
 
-Route::group(['middleware' => ['cors', 'json.response']], function () {
-
-    // ...
+`Route::group(['middleware' => ['cors', 'json.response']], function () {
 
     // public routes
     Route::post('/login', 'Auth\ApiAuthController@login')->name('login.api');
     Route::post('/register', 'Auth\ApiAuthController@register')->name('register.api');
 
-    // ...
-
-});
+});`
 Our protected routes, on the other hand, look like this:
 
 Route::middleware('auth:api')->group(function () {
