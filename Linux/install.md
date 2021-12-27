@@ -6,8 +6,8 @@ sudo dpkg -i Downloads/software.deb
 
 
 ```
-First Header  | Second Header
+Software type  | Command line
 ------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+dpkg  | sudo dpkg -i Downloads/software.deb
+a  | b
 
