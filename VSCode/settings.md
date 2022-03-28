@@ -19,8 +19,4 @@
   "window.zoomLevel": 1
 }
 ```
-## For laravel
-## For React
-## For PHP
-## For WordPress
-## For Codeigniter
+
