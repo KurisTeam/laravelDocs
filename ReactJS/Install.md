@@ -1,44 +1,4 @@
 
-<br />
-<p align="center">
-  <h3 align="center"><a href="https://github.com/learnwithsumit/think-in-a-react-way">Lesson 3 - Think in a React way Tutorial Series [ in Bangla ]</a></h3>
-
-<!-- TABLE OF CONTENTS -->
-
-## Table of Contents
-
-- [How to run](#how-to-run)
-- [Editor Setup](#editor-setup)
-  - [Plugins](#plugins)
-  - [Settings](#settings)
-  - [Set Line Breaks](#set-line-breaks)
-- [Linting Setup](#linting-setup)
-  - [Install Dev Dependencies](#install-dev-dependencies)
-  - [Create Linting Configuration file manually](#create-linting-configuration-file-manually)
-- [Contact](#contact)
-
-<!-- HOW TO RUN -->
-
-## How to run
-
-Please follow the below instructions to run this project in your computer:
-
-1. Clone this repository
-   ```sh
-   git clone https://github.com/learnwithsumit/think-in-a-react-way.git
-   ```
-2. Checkout to branch "lesson-3"
-   ```sh
-   git checkout lesson-3
-   ```
-3. Run
-   ```sh
-   yarn
-   ```
-4. Your app should be available in http://localhost:5500
-
-<!-- Editor Setup -->
-
 ## Editor Setup
 
 You can use any editor but as I personally prefer VS Code. I will give some instructions about how I prefer VS code to be setup for React applications.
