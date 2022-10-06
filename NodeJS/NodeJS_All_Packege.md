@@ -5,6 +5,7 @@
 ```
     npm init -y
     npm i express mongoose morgan nodemon express-validator dotenv bcrypt multer
+	npm i express mongoose dotenv ejs multer cookie-parser express-validator jsonwebtoken bcrypt http-error
 
 ```
 
