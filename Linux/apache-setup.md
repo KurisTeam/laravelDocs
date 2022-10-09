@@ -19,5 +19,6 @@ Mysql and phpmyadmin
 sudo apt-get install mysql
 sudo apt-get install phpmyadmin
 sudo mysql
-
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
+exit
 ```
