@@ -1,6 +1,6 @@
-## NodeJS All Packege Install
+## NodeJS All Package Install
 
-- NodeJS All Packege Install Command Line
+- NodeJS All Package Install Command Line
 
 ```
     npm init -y
@@ -9,7 +9,7 @@
 
 ```
 
-| Packege Name      | Packege Detail                                | Command                              |
+| Package Name      | Package Detail                                | Command                              |
 | ----------------- | --------------------------------------------- | ------------------------------------ |
 | Expressjs         | Express web framework nodejs                  | npm install express --save           |
 | Mongoose          | Mongoose provides a straight-forward          | npm i mongoose                       |
