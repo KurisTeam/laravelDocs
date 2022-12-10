@@ -65,10 +65,10 @@ In order to lint and format your React project automatically according to popula
 ### Install Dev Dependencies
 
 ```sh
-yarn add -D prettier
-yarn add -D babel-eslint
+npm i -D prettier
+npm install eslint @babel/core @babel/eslint-parser --save-dev
 npx install-peerdeps --dev eslint-config-airbnb
-yarn add -D eslint-config-prettier eslint-plugin-prettier
+npm i -D eslint-config-prettier eslint-plugin-prettier
 ```
 
 or You can also add a new script in the scripts section like below to install everything with a single command:
@@ -98,9 +98,11 @@ Create a `.eslintrc` file in the project root and enter the below contents:
     "prettier",
     "plugin:jsx-a11y/recommended"
   ],
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
+  "requireConfigFile": false,
   "parserOptions": {
-    "ecmaVersion": 8
+    "ecmaVersion": 8,
+    "sourceType": "module"
   },
   "env": {
     "browser": true,
